@@ -37,7 +37,7 @@ body {
   float: left;
 }
 
-.hero-copy .t-button-submit, .hero-image .t-button-submit {
+.hero-copy .t-button-submit, .hero-copy .t-button-dashboard, .hero-image .t-button-submit, .hero-image .t-button-dashboard {
   font-size: 1.2em !important;
   padding: 16px 24px !important;
   background: -webkit-gradient(linear, left top, right top, from(#00F5A0), to(#00D9F5));
@@ -47,7 +47,7 @@ body {
   float: left;
 }
 
-.hero-copy .t-button-submit:after, .hero-image .t-button-submit:after {
+.hero-copy .t-button-submit:after, .hero-copy .t-button-dashboard:after, .hero-image .t-button-submit:after, .hero-image .t-button-dashboard:after {
   content: " ⭢";
 }
 
@@ -81,7 +81,7 @@ body {
     font-size: 1.2em !important;
     margin-bottom: 30px;
   }
-  .t-button-submit {
+  .t-button-submit, .t-button-dashboard {
     margin-bottom: 60px !important;
   }
 }
