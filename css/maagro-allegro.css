@@ -116,14 +116,18 @@ body {
 
 .codescript {
   display: block;
+  margin-bottom: 20px;
 }
 
 .fineprint {
-  background-color: #fafafa;
+  background-color: #fff;
   padding: 20px;
   color: #888;
   font-size: .6em;
-  display: block;
+}
+
+.fineprint p {
+  margin-bottom: 0px !important;
 }
 
 .hero-image {

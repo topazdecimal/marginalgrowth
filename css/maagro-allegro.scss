@@ -91,14 +91,19 @@ box-shadow: none !important;
 }
 .codescript{
     display: block;
+    margin-bottom: 20px;
 }
 .fineprint{
-    background-color: #fafafa;
+    background-color: #fff;
     padding: 20px;
     color: #888;
     font-size: .6em;
-    display: block;
+    // display: block;
+    // position: static;
     // margin-left: 20px;;
+    p{
+        margin-bottom: 0px !important;
+    }
 }
 .hero-image{
     text-align: center !important;
