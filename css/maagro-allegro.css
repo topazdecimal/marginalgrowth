@@ -1,4 +1,3 @@
-@charset "UTF-8";
 body {
   font-family: "Quadran", sans-serif !important;
   background: url("/img/page_bg.svg");
@@ -113,10 +112,6 @@ body {
   float: left;
   -webkit-box-shadow: none !important;
           box-shadow: none !important;
-}
-
-.hero-copy .t-button-submit:after, .hero-copy .t-button-dashboard:after, .hero-copy #mc-embedded-subscribe:after, .hero-image .t-button-submit:after, .hero-image .t-button-dashboard:after, .hero-image #mc-embedded-subscribe:after {
-  content: " ⭢";
 }
 
 .hero-image {
