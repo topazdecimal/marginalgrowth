@@ -1,6 +1,6 @@
 @charset "UTF-8";
 body {
-  font-family: "BRFirma", sans-serif !important;
+  font-family: "Quadran", sans-serif !important;
   background: url("/img/page_bg.svg");
   background-position: top left;
   background-size: cover;
@@ -14,6 +14,10 @@ body {
 .logo-text {
   font-weight: bold !important;
   font-size: 1.6em !important;
+}
+
+.navbar-item img {
+  max-height: 3rem !important;
 }
 
 @-webkit-keyframes float {
@@ -68,6 +72,21 @@ body {
       align-self: center;
 }
 
+.hero-copy .this-form, .hero-image .this-form {
+  display: block;
+  padding: 20px;
+  background: #fff !important;
+  height: auto;
+  width: 80%;
+}
+
+.hero-copy .this-form input, .hero-image .this-form input {
+  width: 100% !important;
+  display: block;
+  margin-bottom: 20px;
+  font-family: "Quadran", sans-serif !important;
+}
+
 .hero-copy .t-form, .hero-image .t-form {
   text-align: left !important;
   margin: 10px 0px;
@@ -80,20 +99,23 @@ body {
 
 .hero-copy .t-input, .hero-image .t-input {
   font-size: 1.4em !important;
-  padding: 8px 16px !important;
+  padding: 16px 16px !important;
   float: left;
 }
 
-.hero-copy .t-button-submit, .hero-copy .t-button-dashboard, .hero-image .t-button-submit, .hero-image .t-button-dashboard {
-  font-size: 1.2em !important;
+.hero-copy .t-button-submit, .hero-copy .t-button-dashboard, .hero-copy #mc-embedded-subscribe, .hero-image .t-button-submit, .hero-image .t-button-dashboard, .hero-image #mc-embedded-subscribe {
+  font-size: 1.4em !important;
   padding: 16px 24px !important;
-  background: #FFE000;
+  background: #2B67F5;
+  display: block;
   border-radius: 5px;
-  color: #222 !important;
+  color: #fff !important;
   float: left;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
 }
 
-.hero-copy .t-button-submit:after, .hero-copy .t-button-dashboard:after, .hero-image .t-button-submit:after, .hero-image .t-button-dashboard:after {
+.hero-copy .t-button-submit:after, .hero-copy .t-button-dashboard:after, .hero-copy #mc-embedded-subscribe:after, .hero-image .t-button-submit:after, .hero-image .t-button-dashboard:after, .hero-image #mc-embedded-subscribe:after {
   content: " ⭢";
 }
 
@@ -107,28 +129,52 @@ body {
 
 .hero-image img {
   width: 100%;
-  border-radius: 20px;
-  -webkit-animation: float 6s ease-in-out infinite;
-          animation: float 6s ease-in-out infinite;
 }
 
 .hero-title {
-  font-size: 3.6em !important;
+  font-size: 4.2em !important;
   font-weight: 900 !important;
-  font-family: "BRFirma", sans-serif !important;
+  font-family: "Quadran", sans-serif !important;
   line-height: 120% !important;
   margin-bottom: 20px;
   color: #222 !important;
+  letter-spacing: -3px;
 }
 
 .hero-copy p {
   font-size: 1.6em !important;
   margin-bottom: 30px;
+  letter-spacing: -1px;
 }
 
 .hero-copy img {
   width: 200px;
   height: auto;
+}
+
+#mc_embed_signup {
+  background: #fff;
+  clear: left;
+  font: 1.4em "Quadran", sans-serif !important;
+}
+
+#mc_embed_signup .mc-field-group {
+  clear: left;
+  position: relative;
+  width: 96%;
+  padding-bottom: 0px !important;
+  min-height: 50px;
+}
+
+#mc_embed_signup .mc-field-group input {
+  padding: 16px !important;
+}
+
+#mc_embed_signup form {
+  display: block;
+  position: relative;
+  text-align: left;
+  padding: 30px !important;
 }
 
 @media screen and (max-width: 600px) {
